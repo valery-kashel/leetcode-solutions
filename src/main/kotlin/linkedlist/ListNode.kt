@@ -1,6 +1,6 @@
 package linkedlist
 
-class ListNode(private var `val`: Int) {
+class ListNode(var `val`: Int) {
     var next: ListNode? = null
 
     override fun toString(): String {
